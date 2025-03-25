@@ -25,7 +25,7 @@ Each folder contains its own `README.md` file with detailed usage instructions.
    - This will create two CSV files for raincloud plotting.
 
 2. Open the `jasp/` folder:
-   - Use the included `.jasp` files to load the raincloud data.
+   - Use the included `.jasp` files to explore the pre-loaded data and the raincloud plots.
    - Plots are pre-configured and ready to view or export.
 
 3. Explore the `vosviewer/` folder:

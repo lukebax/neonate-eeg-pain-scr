@@ -29,12 +29,31 @@ r/
 
 Running the script generates:
 
-- `summary_stats.csv`: Descriptive statistics across studies
-- `plot_publication_year.pdf`: Publication trend over time
-- `plot_country_map.pdf`: Choropleth map of studies by country
-- `plot_electrode_frequencies.pdf`: Frequency of EEG electrode use
-- `raincloud_data_single.csv`: Data for JASP raincloud plots (sample size, EEG data loss)
-- `raincloud_data_paired.csv`: Data for JASP raincloud plots (postmenstrual age, sex)
+- Eleven `.csv` files:
+
+  - `fig_analgesic_intervention.csv`
+  - `fig_clinical_pain_scale.csv`
+  - `fig_country_count_table.csv`
+  - `fig_electrode_count_table.csv`
+  - `fig_electrode_placement_method.csv`
+  - `fig_epoch_rej_method.csv`
+  - `fig_non_eeg_recording.csv`
+  - `fig_pain_procedure.csv`
+  - `raincloud_data_paired.csv`: Data for JASP raincloud plots (postmenstrual age, sex)
+  - `raincloud_data_single.csv`: Data for JASP raincloud plots (sample size, EEG data loss)
+  - `summary_stats.csv`
+
+- Nine `.pdf` figures:
+
+  - `electrode_frequency_map.pdf`
+  - `fig_analgesic_intervention.pdf`
+  - `fig_clinical_pain_scale.pdf`
+  - `fig_country_map.pdf`
+  - `fig_electrode_placement_method.pdf`
+  - `fig_epoch_rej_method.pdf`
+  - `fig_non_eeg_recording.pdf`
+  - `fig_pain_procedure.pdf`
+  - `fig_publication_year.pdf`
 
 ## Summary
 
