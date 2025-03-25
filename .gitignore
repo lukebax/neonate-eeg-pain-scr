@@ -47,3 +47,45 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+
+
+# R and RStudio
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rapp.history
+.Rproj.user
+
+# R environment files
+.Renviron
+.Rprofile
+
+# RStudio project backups
+*.Rproj.user/
+*.Rproj
+
+# Compiled or intermediate files
+*.csv~
+*.pdf~
+*.xlsx~
+*.tmp
+*.bak
+*.log
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows system files (just in case)
+Thumbs.db
+
+# JASP temporary files
+*.autosave
+
+# Optional: uncomment if outputs can be regenerated
+# /r/results/
