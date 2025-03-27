@@ -74,6 +74,8 @@ T_summary_stats["Sample Size (N)", ] <- summary_stats(df_analysis_2$sample_size,
 T_summary_stats["Age at Birth (weeks)", ] <- summary_stats(df_analysis_2$pma_birth_avg, "Age at Birth (weeks)")
 T_summary_stats["Age at Study (weeks)", ] <- summary_stats(df_analysis_2$pma_study_avg, "Age at Study (weeks)")
 T_summary_stats["EEG Data Loss (%)", ] <- summary_stats(df_analysis_2$eeg_data_loss_pct, "EEG Data Loss (%)")
+T_summary_stats["Males (%)", ] <- summary_stats(df_analysis_2$sex_male_pct, "Males (%)")
+T_summary_stats["Females (%)", ] <- summary_stats(df_analysis_2$sex_female_pct, "Females (%)")
 
 write.csv(T_summary_stats, paste0(results_folder, "summary_stats.csv"), row.names = TRUE)
 
