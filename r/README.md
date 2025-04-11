@@ -55,6 +55,43 @@ Running the script generates:
   - `fig_pain_procedure.pdf`
   - `fig_publication_year.pdf`
 
+## Dependencies
+
+This analysis requires several R packages and one system dependency. These are needed to run the analysis scripts and generate figures.
+
+### Required R Packages
+
+- **readr** – for reading CSV files  
+- **dplyr** – for data manipulation  
+- **stringr** – for string operations  
+- **tidyr** – for reshaping data  
+- **ggplot2** – for data visualization  
+- **cowplot** – for combining plots  
+- **scales** – for axis formatting and labels  
+- **forcats** – for handling categorical factors  
+- **sf** – for working with spatial vector data  
+- **rnaturalearth** – for natural earth map data  
+- **rnaturalearthdata** – provides data used by `rnaturalearth`  
+- **ggrepel** – for improved text label positioning in plots  
+
+### System Requirement
+
+- [**XQuartz**](https://www.xquartz.org) (macOS only): Required to render create EEG electrode frequency plot.
+
+### How to install
+
+You can install all required R packages at once by running:
+
+```r
+install.packages(c(
+  "readr", "dplyr", "stringr", "tidyr", "ggplot2", 
+  "cowplot", "scales", "forcats", "sf", 
+  "rnaturalearth", "rnaturalearthdata", "ggrepel"
+))
+```
+
+Alternatively, open each R script and function in RStudio. If any required package is missing, R will prompt you to install it — simply follow the prompt to install each one as needed.
+
 ## Summary
 
 This R folder provides a fully automated pipeline for generating descriptive summaries and publication-ready visualizations based on the extracted dataset.
