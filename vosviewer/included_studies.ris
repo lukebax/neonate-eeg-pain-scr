@@ -101,6 +101,52 @@ N1  - Conference code: 169330 | Cited By :1 | Export Date: 27 July 2022 | Refere
 ER  - 
 
 TY  - JOUR
+T1  - Establishing a standardised approach for the measurement of neonatal noxious-evoked brain activity in response to an acute somatic nociceptive heel lance stimulus.
+JF  - Cortex; a journal devoted to the study of the nervous system and behavior
+A1  - Marianne Aspbury
+A1  - Roshni Mansfield
+A1  - Luke Baxter
+A1  - Aomesh Bhatt
+A1  - Maria Cobo
+A1  - Sean Fitzgibbon
+A1  - Caroline Hartley
+A1  - Annalisa Hauck
+A1  - Simon Marchant
+A1  - Vaneesha Monk
+A1  - Kirubin Pillay
+A1  - Ravi Poorun
+A1  - Marianne van der Vaart
+A1  - Rebeccah Slater
+ST  - Aspbury (2024)
+KW  - eppi-reviewer
+KW  - Humans
+KW  - Infant, Newborn
+KW  - *Electroencephalography/mt [Methods]
+KW  - Female
+KW  - Male
+KW  - *Brain/pp [Physiopathology]
+KW  - *Brain/ph [Physiology]
+KW  - *Heel
+KW  - Pain Measurement/mt [Methods]
+KW  - Pain/pp [Physiopathology]
+PY  - 2024
+DA  - 2024///
+Y1  - 2024///
+AB  - BACKGROUND: Electroencephalography (EEG) can be used in neonates to measure brain activity changes that are evoked by noxious events, such as clinically required immunisations, cannulation and heel lancing for blood tests. EEG provides an alternative approach to infer pain experience in infants compared with more commonly used behavioural and physiological pain assessments. Establishing the generalisability and construct validity of these measures will help corroborate the use of brain-derived outcomes to evaluate the efficacy of new or existing pharmacological and non-pharmacological methods to treat neonatal pain. This study aimed to test whether a measure of noxious-evoked EEG activity called the noxious neurodynamic response function (n-NRF), that was originally derived in a sample of term-aged infants at the Oxford John Radcliffe Hospital, UK, in 2017, can reliably distinguish noxious from non-noxious events in two independent datasets collected at University College London Hospital and at Royal Devon & Exeter Hospital. We aimed to reproduce three published results that use this measure to quantify noxious-evoked changes in brain activity. We used the n-NRF to quantify noxious-evoked brain activity to test (i) whether significantly larger noxious-evoked activity is recorded in response to a clinical heel lance compared to a non-noxious control heel lance procedure; (ii) whether the magnitude of the activity evoked by a noxious heel lance is equivalent in independent cohorts of infants; and (iii) whether the magnitude of the noxious-evoked brain activity increases with postmenstrual age (PMA) in premature infants up to 37 weeks PMA. Positive replication of these studies will build confidence in the use of the n-NRF as a valid and reliable pain-related outcome which could be used to evaluate analgesic efficacy in neonates. The protocol for this study was published following peer review (https://doi.org/10.17605/OSF.IO/ZY9MS)., RESULTS: The n-NRF magnitude to a noxious heel lance stimulus was significantly greater than to a non-noxious control heel lance stimulus in both the UCL dataset (n = 60; mean difference .88; 95% confidence interval (CI) .64-1.13; p < .0001) and the Exeter dataset (n = 31; mean difference .31; 95% CI .02-.61; p = .02). The mean magnitude and 90% bootstrap confidence interval of the n-NRF evoked by the heel lance did not meet our pre-defined equivalence bounds of 1.0 +/- .2 in either the UCL dataset (n = 72; mean magnitude 1.33; 90% bootstrapped CI 1.18-1.52) or the Exeter dataset (n = 35; mean magnitude .92, 90% bootstrapped CI .74-1.22). The magnitude of the n-NRF to the noxious stimulus was significantly positively correlated with PMA in infants up to 37 weeks PMA (n = 65; one-sided Pearson's R, adjusted for site: .24; 95% CI .06-1.00; p = .03)., CONCLUSIONS: We have reproduced in independent datasets the findings that the n-NRF response to a noxious stimulus is significantly greater than to a non-noxious stimulus, and that the noxious-evoked EEG response increases with PMA. The pre-defined equivalence bounds for the mean magnitude of the EEG response were not met, though this might be due to either inter-site differences such as the lack of calibration of devices between sites (a true negative) or underpowering (a false negative). This reproducibility study provides robust evidence that supports the use of the n-NRF as an objective outcome for clinical trials assessing acute nociception in neonates. Use of the n-NRF in this way has the potential to transform the way analgesic efficacy studies are performed. Copyright © 2024 The Author(s). Published by Elsevier Ltd.. All rights reserved.
+DO  - https://dx.doi.org/10.1016/j.cortex.2024.05.023
+VL  - 179
+IS  - 
+SP  - 215
+EP  - 234
+CY  - Italy
+UR  - http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=med26&NEWS=N&AN=39197410 https://oxford.primo.exlibrisgroup.com/openurl/44OXF_INST/44OXF_INST:SOLO?sid=OVID:medline&id=pmid:39197410&id=doi:10.1016%2Fj.cortex.2024.05.023&issn=0010-9452&isbn=&volume=179&issue=&spage=215&pages=215-234&date=2024&title=Cortex&atitle=Establishing+a+standardised+approach+for+the+measurement+of+neonatal+noxious-evoked+brain+activity+in+response+to+an+acute+somatic+nociceptive+heel+lance+stimulus.&aulast=Aspbury&
+SN  - 0010-9452
+U1  - 115011370
+U2  - 39197410
+N1  - 
+ER  - 
+
+TY  - JOUR
 T1  - The influence of breastfeeding on cortical and bio-behavioural indicators of procedural pain in newborns: Findings of a randomized controlled trial.
 JF  - Comment in: Early Hum Dev. 2021 Jun;157:105361 PMID: 33838455 [https://www.ncbi.nlm.nih.gov/pubmed/33838455] Comment in: Early Hum Dev. 2021 Jun;157:105363 PMID: 33839478 [https://www.ncbi.nlm.nih.gov/pubmed/33839478]
 A1  - Britney Benoit
@@ -352,6 +398,74 @@ UR  - http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=mesx&NEWS=N&AN=35
 SN  - 2041-1723
 U1  - 74144149
 U2  - 35803920
+N1  - 
+ER  - 
+
+TY  - JOUR
+T1  - Evaluation of the Relationship between Pain Exposure and Somatosensory Evoked Potentials in Preterm Infants: A Prospective Cohort Study
+JF  - Children
+A1  - Caterina Coviello
+A1  - Silvia Lori
+A1  - Giovanna Bertini
+A1  - Simona Montano
+A1  - Simonetta Gabbanini
+A1  - Maria Bastianelli
+A1  - Cesarina Cossu
+A1  - Sara Cavaliere
+A1  - Clara Lunardi
+A1  - Carlo Dani
+ST  - Coviello (2024)
+KW  - eppi-reviewer
+KW  - article
+KW  - Bayley Scales of Infant Development
+KW  - cohort analysis
+KW  - continuous infusion
+KW  - controlled study
+KW  - electroencephalogram
+KW  - endotracheal intubation
+KW  - female
+KW  - gestational age
+KW  - human
+KW  - latent period
+KW  - loading drug dose
+KW  - lung dysplasia
+KW  - major clinical study
+KW  - male
+KW  - nerve conduction
+KW  - newborn
+KW  - *pain
+KW  - *prematurity
+KW  - reference electrode
+KW  - risk factor
+KW  - sepsis
+KW  - *somatosensory evoked potential
+KW  - fentanyl/iv [Intravenous Drug Administration]
+KW  - fentanyl/pv [Special Situation for Pharmacovigilance]
+KW  - lidocaine/pv [Special Situation for Pharmacovigilance]
+KW  - lidocaine/sc [Subcutaneous Drug Administration]
+KW  - morphine/iv [Intravenous Drug Administration]
+KW  - morphine/pv [Special Situation for Pharmacovigilance]
+KW  - central venous catheter
+KW  - chest tube
+KW  - data analysis software
+KW  - multichannel recorder
+KW  - central conduction time
+KW  - GalNT/EP EXAM software
+KW  - IBM SPSS Statistics version 20
+KW  - Nemus-EB Neuro polygraph
+PY  - 2024
+DA  - 2024///
+Y1  - 2024///
+AB  - Background and aim: First, to compare somatosensory evoked potentials (SEPs) in preterm newborns without major brain injury studied at term equivalent age (TEA) with a term historical control group. Second, to investigate the impact of pain exposure during the first 28 days after birth on SEPs. Third, to evaluate the association between SEPs and Bayley-III at 2 years corrected age (CA). Method(s): Infants born at <32 weeks' gestational age (GA) were studied with continuous-SEPs. First, SEP differences between preterm and term infants were analyzed. Second, regression analyses were conducted to explore the association between SEPs and painful procedures, and then between SEPs and neurodevelopment. Result(s): 86 preterm infants were prospectively enrolled. Preterm infants exhibited prolonged N1 latencies, central conduction times (CCTs), lower N1-P1 amplitudes, and more recurrently abnormal SEPs compared to term infants. Higher pain exposure predicted longer N1 latency and slower CCT (all p < 0.005), adjusting for clinical risk factors. Younger GA and postmenstrual age (PMA) at SEP recording were associated with longer N1 latency and lower N1-P1 amplitude (all p < 0.005). A normal SEP at TEA positively predicted cognitive outcome at 2 years CA (p < 0.005). Conclusion(s): Pain exposure and prematurity were risk factors for altered SEP parameters at TEA. SEPs predicted cognitive outcome.Copyright © 2024 by the authors.
+DO  - https://dx.doi.org/10.3390/children11060676
+VL  - 11
+IS  - 6
+SP  - 676
+CY  - Switzerland
+UR  - https://www.mdpi.com/journal/children http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=emed27&NEWS=N&AN=2030352399 https://oxford.primo.exlibrisgroup.com/openurl/44OXF_INST/44OXF_INST:SOLO?sid=OVID:embase&id=pmid:&id=doi:10.3390%2Fchildren11060676&issn=2227-9067&isbn=&volume=11&issue=6&spage=676&pages=&date=2024&title=Children&atitle=Evaluation+of+the+Relationship+between+Pain+Exposure+and+Somatosensory+Evoked+Potentials+in+Preterm+Infants%3A+A+Prospective+Cohort+Study&aulast=Coviello&pi
+PB  - Multidisciplinary Digital Publishing Institute (MDPI)
+SN  - 2227-9067
+U1  - 115011853
 N1  - 
 ER  - 
 
@@ -893,6 +1007,44 @@ N1  -
 ER  - 
 
 TY  - JOUR
+T1  - Quantification electroencephalography response to procedural pain during heel puncture in preterm infants.
+JF  - Physiological measurement
+A1  - Nusreena Hohsoh
+A1  - Osuke Iwata
+A1  - Tomoko Suzuki
+A1  - Chinami Hanai
+A1  - Ming Huang
+A1  - Kiyoko Yokoyama
+ST  - Hohsoh (2025)
+KW  - eppi-reviewer
+KW  - Humans
+KW  - *Electroencephalography
+KW  - *Infant, Premature/ph [Physiology]
+KW  - Infant, Newborn
+KW  - *Pain, Procedural/pp [Physiopathology]
+KW  - *Pain, Procedural/di [Diagnosis]
+KW  - Male
+KW  - Female
+KW  - *Heel
+KW  - *Punctures/ae [Adverse Effects]
+KW  - Brain/pp [Physiopathology]
+KW  - *Pain Measurement
+PY  - 2025
+DA  - 2025///
+Y1  - 2025///
+AB  - Objective. Pain assessment in preterm infants is often based on subjective observations, which may lack objectivity and are labor-intensive. Non-invasive EEG can serve as an objective assessment tool. However, no specific EEG feature within a particular frequency band and brain region has been reported for pain detection in the objective pain assessment of preterm infants. This study quantified electroencephalography (EEG) responses to procedural pain during a puncture in preterm infants, specifically analyzing three EEG parameters. Approach. Fifty-seven EEG datasets from forty-two preterm infants were analyzed across eight EEG channels. The differences between the upper and lower margins (UM-LM) of amplitude-integrated EEG (aEEG), as well as the five frequency bands (low delta, high delta, theta, alpha, and beta) of frequency power and time-frequency power, were used to characterize the response of the brain to pain during specific periods: before, during, and after the puncture. Main results. The Fp1 and Fp2 exhibited the most significant differences in the UM-LM aEEG differences between before vs during (Fp1:p= 0.0060, Fp2:p= 0.0031), before vs after (p< 0.0001), and during vs after (Fp1:p= 0.0427, Fp2:p= 0.025) the puncture. The C3 and C4 responded significantly to pain during the puncture in the frequency and time-frequency power, notably the time-frequency power in the low delta, which showed the most significant differences between the periods before vs during (p< 0.0001), before vs after (p< 0.0001), and during vs after (p= 0.0002) the puncture. Significance. The central brain region responds significantly to procedural pain in preterm infants, which is prominently detected in the low delta of time-frequency power. These findings support the use of EEG application as an objective and non-invasive method to identify and detect pain in nonverbal populations, focusing on specific critical channels and frequency bands. Copyright © 2025 Institute of Physics and Engineering in Medicine. All rights, including for text and data mining, AI training, and similar technologies, are reserved.
+DO  - https://dx.doi.org/10.1088/1361-6579/addfa9
+VL  - 46
+IS  - 6
+CY  - England
+UR  - http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=mesx&NEWS=N&AN=40456262 https://oxford.primo.exlibrisgroup.com/openurl/44OXF_INST/44OXF_INST:SOLO?sid=OVID:medline&id=pmid:40456262&id=doi:10.1088%2F1361-6579%2Faddfa9&issn=0967-3334&isbn=&volume=46&issue=6&spage=065004&pages=&date=2025&title=Physiological+Measurement&atitle=Quantification+electroencephalography+response+to+procedural+pain+during+heel+puncture+in+preterm+infants.&aulast=Hohsoh&pid=%3Cauthor%3EHohsoh+N%3BIwata+O%3BSuzuki+T%
+SN  - 0967-3334
+U1  - 115011364
+U2  - 40456262
+N1  - 
+ER  - 
+
+TY  - JOUR
 T1  - Nociceptive Cortical Activity Is Dissociated from Nociceptive Behavior in Newborn Human Infants under Stress.
 JF  - Current biology : CB
 A1  - Laura Jones
@@ -1097,6 +1249,100 @@ N1  -
 ER  - 
 
 TY  - JOUR
+T1  - A machine learning artefact detection method for single-channel infant event-related potential studies.
+JF  - Journal of neural engineering
+A1  - Simon Marchant
+A1  - Marianne van der Vaart
+A1  - Kirubin Pillay
+A1  - Luke Baxter
+A1  - Aomesh Bhatt
+A1  - Sean Fitzgibbon
+A1  - Caroline Hartley
+A1  - Rebeccah Slater
+ST  - Marchant (2024)
+KW  - eppi-reviewer
+KW  - Humans
+KW  - *Artifacts
+KW  - *Electroencephalography/mt [Methods]
+KW  - *Machine Learning
+KW  - Infant
+KW  - Male
+KW  - Female
+KW  - *Evoked Potentials/ph [Physiology]
+KW  - Reproducibility of Results
+KW  - Infant, Newborn
+KW  - Algorithms
+PY  - 2024
+DA  - 2024///
+Y1  - 2024///
+AB  - Objective. Automated detection of artefact in stimulus-evoked electroencephalographic (EEG) data recorded in neonates will improve the reproducibility and speed of analysis in clinical research compared with manual identification of artefact. Some studies use very short, single-channel epochs of EEG data with little recorded EEG per infant-for example because the clinical vulnerability of the infants limits access for recording. Current artefact-detection methods that perform well on adult data and resting-state and multi-channel data in infants are not suitable for this application. The aim of this study was to create and test an automated method of detecting artefact in single-channel 1500 ms epochs of infant EEG. Approach. A total of 410 epochs of EEG were used, collected from 160 infants of 28-43 weeks postmenstrual age. This dataset-which was balanced to include epochs of background activity and responses to visual, auditory, tactile and noxious stimuli-was presented to seven independent raters, who independently labelled the epochs according to whether or not they were able to visually identify artefacts. The data was split into a training set (340 epochs) and an independent test set (70 epochs). A random forest model was trained to identify epochs as either artefact or not artefact. Main results. This model performs well, achieving a balanced accuracy of 0.81, which is as good as manual review of data. Accuracy was not significantly related to the infant age or type of stimulus. Significance. This method provides an objective tool for automated artefact rejection for short epoch, single-channel EEG in neonates and could increase the utility of EEG in neonates in both the clinical and research setting. Copyright Creative Commons Attribution license.
+DO  - https://dx.doi.org/10.1088/1741-2552/ad5c04
+VL  - 21
+IS  - 4
+CY  - England
+UR  - http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=med26&NEWS=N&AN=38925111 https://oxford.primo.exlibrisgroup.com/openurl/44OXF_INST/44OXF_INST:SOLO?sid=OVID:medline&id=pmid:38925111&id=doi:10.1088%2F1741-2552%2Fad5c04&issn=1741-2552&isbn=&volume=21&issue=4&spage=&pages=&date=2024&title=Journal+of+Neural+Engineering&atitle=A+machine+learning+artefact+detection+method+for+single-channel+infant+event-related+potential+studies.&aulast=Marchant&pid=%3Cauthor%3EMarchant+S%3Bvan+der+Vaart+M%3BP
+SN  - 1741-2552
+U1  - 115011376
+U2  - 38925111
+N1  - 
+ER  - 
+
+TY  - JOUR
+T1  - Depression of cortical neuronal activity after a low-dose fentanyl in preterm infants
+JF  - Acta Paediatrica, International Journal of Paediatrics
+A1  - Sofie Nilsson
+A1  - Anton Tokariev
+A1  - Timo Vehviläinen
+A1  - Vineta Fellman
+A1  - Sampsa Vanhatalo
+A1  - Elisabeth Norman
+ST  - Nilsson (2025)
+KW  - eppi-reviewer
+KW  - adrenal cortex
+KW  - amplitude modulation
+KW  - article
+KW  - assisted ventilation
+KW  - birth weight
+KW  - *brain cortex
+KW  - clinical article
+KW  - electroencephalogram
+KW  - *electroencephalography
+KW  - endotracheal intubation
+KW  - human
+KW  - infant
+KW  - low drug dose
+KW  - *neuromonitoring
+KW  - newborn
+KW  - parietal lobe
+KW  - *prematurity
+KW  - procedural pain/dt [Drug Therapy]
+KW  - right hemisphere
+KW  - antibiotic agent
+KW  - caffeine citrate
+KW  - *fentanyl/dt [Drug Therapy]
+KW  - ibuprofen
+KW  - opiate
+KW  - electroencephalograph
+KW  - radiotherapy planning system
+PY  - 2025
+DA  - 2025///
+Y1  - 2025///
+AB  - Aim: Opioids might be harmful to the developing brain and dosing accuracy is important. We aimed at investigating fentanyl effects on cortical activity in infants using computational re-analysis of bedside recorded EEG signals. Method(s): Fifteen infants born at median 26.4 gestational weeks (range 23.3-34.1), with a birth weight 740 grams (530-1420) and postnatal age 7 days (5-11) received fentanyl 0.5 or 2 mug/kg intravenously before a skin-breaking procedure or tracheal intubation, respectively. Cortical activity was continuously recorded using amplitude-integrated electroencephalography (aEEG). Analyses using three computational EEG features representing cortical synchrony and signal power, were conducted five minutes pre- and 10 minutes post the drug administration. Result(s): Visual assessment of trends displayed from the EEG metrics did not indicate systematic changes. However, the magnitude of the changes in the parietal and right hemisphere signals after the dose was significantly correlated (rho < -0.5, p < 0.05) to the EEG amplitude and frequency power level before drug administration. This effect started after 3-4 min. Conclusion(s): Fentanyl, even in small doses, may affect cortical activity in the preterm brain. The effect is robustly related to the state of cortical activity prior to drug treatment, which must be taken into account when analysing the effects of sedative drugs.Copyright © 2024 The Author(s). Acta Paediatrica published by John Wiley & Sons Ltd on behalf of Foundation Acta Paediatrica.
+DO  - https://dx.doi.org/10.1111/apa.17411
+VL  - 114
+IS  - 1
+SP  - 109
+EP  - 115
+CY  - United Kingdom
+UR  - http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1651-2227 http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=emed28&NEWS=N&AN=2031304517 https://oxford.primo.exlibrisgroup.com/openurl/44OXF_INST/44OXF_INST:SOLO?sid=OVID:embase&id=pmid:39258825&id=doi:10.1111%2Fapa.17411&issn=0803-5253&isbn=&volume=114&issue=1&spage=109&pages=109-115&date=2025&title=Acta+Paediatrica%2C+International+Journal+of+Paediatrics&atitle=Depression+of+cortical+neuronal+activity+after+a+low-dose+fentanyl+in+pret
+PB  - John Wiley and Sons Inc
+SN  - 1651-2227
+U1  - 115011840
+U2  - 39258825
+N1  - 
+ER  - 
+
+TY  - JOUR
 T1  - Electroencephalographic response to procedural pain in healthy term newborn infants.
 JF  - Pediatric research
 A1  - Elisabeth Norman
@@ -1201,18 +1447,57 @@ A1  - Maeve McLoughlin
 A1  - Nathalie Maitre
 ST  - Relland (2024)
 KW  - eppi-reviewer
+KW  - Humans
+KW  - *Vibration/tu [Therapeutic Use]
+KW  - Infant, Newborn
+KW  - *Electroencephalography/mt [Methods]
+KW  - Male
+KW  - Female
+KW  - *Punctures/ae [Adverse Effects]
+KW  - *Punctures/mt [Methods]
+KW  - Infant
+KW  - Intensive Care Units, Neonatal
+KW  - Pain Measurement
 PY  - 2024
 DA  - 2024///
 Y1  - 2024///
 AB  - OBJECTIVE: To assess the effect of a non-noxious vibratory stimulus on noxious-evoked cortical responses to skin puncture and to determine whether the presence of certain behavioural components may be used to predict such cortical responses., DESIGN: Randomised controlled trial., SETTING: Level IV neonatal intensive care unit at a stand-alone children's hospital., PATIENTS: 134 hospitalised infants between 36 and 52 weeks' postmenstrual age and ordered to receive a clinically required laboratory draw., INTERVENTIONS: Infants randomised to receive the intervention, a vibratory stimulus at the site of skin puncture beginning 10 s prior to a heel stick, or the control, no vibration., MAIN OUTCOME MEASURES: Electroencephalography and video recording time-locked to the deployment of the lancet for the skin puncture. Noxious-evoked cortical responses were measured by the area under the curve in the somatosensory region contralateral to the skin puncture. Behavioural responses were coded through video analysis., RESULTS: Noxious-evoked cortical responses were significantly reduced in participants receiving the vibratory stimulus compared with the control (frontal, p<0.0001; central, p=0.0088; central-parietal, p=0.0111). There were no significant differences in behavioural responses between groups (all p>0.05)., CONCLUSIONS: A non-noxious vibratory stimulus presented prior to and continuing simultaneously with skin puncture significantly mitigates nociception in hospitalised infants. The presence or absence of facial expression components is inadequate to reliably predict pain signalling in the brain., TRIAL REGISTRATION NUMBER: NCT04050384. Copyright © Author(s) (or their employer(s)) 2024. No commercial re-use. See rights and permissions. Published by BMJ.
 DO  - https://dx.doi.org/10.1136/archdischild-2023-326588
-VL  - 
-IS  - 
+VL  - 109
+IS  - 6
+SP  - 622
+EP  - 627
 CY  - England
-UR  - http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=medp&NEWS=N&AN=38479794
+UR  - http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=med25&NEWS=N&AN=38479794 https://oxford.primo.exlibrisgroup.com/openurl/44OXF_INST/44OXF_INST:SOLO?sid=OVID:medline&id=pmid:38479794&id=doi:10.1136%2Farchdischild-2023-326588&issn=1359-2998&isbn=&volume=109&issue=6&spage=622&pages=622-627&date=2024&title=Archives+of+Disease+in+Childhood+Fetal+%26+Neonatal+Edition&atitle=Vibration-based+mitigation+of+noxious-evoked+responses+to+skin+puncture+in+neonates+and+infants%3A+a+randomised+controlle
 SN  - 1359-2998
-U1  - 98401664
+U1  - 115011378
 U2  - 38479794
+N1  - 
+ER  - 
+
+TY  - JOUR
+T1  - Objective Detection of Newborn Infant Acute Procedural Pain Using EEG and Machine Learning Algorithms.
+JF  - Paediatric & neonatal pain
+A1  - Jean-Michel Roué
+A1  - Amir Avnit
+A1  - Behnood Gholami
+A1  - Wassim Haddad
+A1  - Kanwaljeet Anand
+ST  - Roue (2025)
+KW  - eppi-reviewer
+PY  - 2025
+DA  - 2025///
+Y1  - 2025///
+AB  - Observer-dependent infant pain scales have limitations including discontinuous assessments and the lack of healthcare professionals' availability. We hypothesized that applying agnostic machine learning approaches to neonatal electroencephalographic (EEG) analysis may reveal features of the infant response to acute pain. EEG was recorded from 30 neonates undergoing acutely painful procedures (18 males, 34.0-41.7 weeks gestation at birth). EEG recordings were randomly assigned to training (n = 20) and testing (n = 10) datasets. Functional connectivity measures were calculated for each infant before and after pain-inducing procedures. A grid search including five machine learning models was conducted on the training dataset, and each model was evaluated using leave-one-subject-out cross-validation. An optimal model, having the highest F-1 score, was obtained and evaluated on the independent testing dataset. A gradient boosting model with 12 features showed optimal performance, with 90% area under the receiver operating characteristic curve suggesting high specificity (0.90) and precision (0.90). The five highest ranked features corresponded to EEG electrode pairs: T7-P4, Fz-CP5, FC1-TP10, CP6-Cz, and Fz-F3, suggesting involvement of the contralateral temporal gyrus, opercular cortex, thalamus, and bilateral insula in infant pain processing. Preliminary changes in functional connectivity indicate infant pain processing. Future machine learning algorithms can integrate physiological and behavioral parameters with EEG changes to accurately assess the complexity of infant pain responses. Trial Registration: ClinicalTrials.gov identifier: NCT03330496. Copyright © 2025 The Author(s). Paediatric and Neonatal Pain published by John Wiley & Sons Ltd.
+DO  - https://dx.doi.org/10.1002/pne2.70001
+VL  - 7
+IS  - 1
+SP  - e70001
+CY  - United States
+UR  - http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=pmnm&NEWS=N&AN=40066435 https://oxford.primo.exlibrisgroup.com/openurl/44OXF_INST/44OXF_INST:SOLO?sid=OVID:medline&id=pmid:40066435&id=doi:10.1002%2Fpne2.70001&issn=2637-3807&isbn=&volume=7&issue=1&spage=e70001&pages=e70001&date=2025&title=Paediatric+%26+Neonatal+Pain&atitle=Objective+Detection+of+Newborn+Infant+Acute+Procedural+Pain+Using+EEG+and+Machine+Learning+Algorithms.&aulast=Roue&pid=%3Cauthor%3ERoue+JM%3BAvnit+A%3BGholami+B%3BHadd
+SN  - 2637-3807
+U1  - 115011362
+U2  - 40066435
 N1  - 
 ER  - 
 
@@ -1292,6 +1577,39 @@ UR  - http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=med20&NEWS=N&AN=3
 SN  - 2213-1582
 U1  - 74144161
 U2  - 34915328
+N1  - 
+ER  - 
+
+TY  - JOUR
+T1  - Decoding of pain during heel lancing in human neonates with EEG signal and machine learning approach.
+JF  - Scientific reports
+A1  - Reyhane Shafiee
+A1  - Mohammad Reza Daliri
+ST  - Shafiee (2024)
+KW  - eppi-reviewer
+KW  - Humans
+KW  - *Electroencephalography/mt [Methods]
+KW  - Infant, Newborn
+KW  - *Machine Learning
+KW  - Male
+KW  - *Pain/pp [Physiopathology]
+KW  - Female
+KW  - *Support Vector Machine
+KW  - *Heel
+KW  - Pain Measurement/mt [Methods]
+PY  - 2024
+DA  - 2024///
+Y1  - 2024///
+AB  - Currently, pain assessment using electroencephalogram signals and machine learning methods in clinical studies is of great importance, especially for those who cannot express their pain. Since newborns are among the high-risk group and always experience pain at the beginning of birth, in this research, the severity of newborns has been investigated and evaluated. Other studies related to the annoyance of newborns have used the EEG signal of newborns alone; therefore, in this study, the intensity of newborn pain was measured using the electroencephalogram signal of 107 infants who were stimulated by the heel lance in three levels: no pain, low pain and moderate pain were recorded as a single trial and evaluated. The support vector machine (SVM), K-Nearest Neighbors (KNN) and Ensemble bagging classifiers were trained using the K-fold cross-validation method and features of the brain's time-frequency domain. The results were obtained with accuracies of 72.8 +/- 2, 84.4 +/- 1.3 and 82.9 +/- 1.6%, respectively. Also, in examining the problem of distinguishing pain and no pain, the electroencephalogram signal of 74 infants was evaluated, and similar to the three-class mode, with the 10-fold validation method, we reached the highest accuracy of 100% in Bagging classifier and 98.6 +/- 0.1 accuracy in KNN and SVM classifiers. Copyright © 2024. The Author(s).
+DO  - https://dx.doi.org/10.1038/s41598-024-82631-0
+VL  - 14
+IS  - 1
+SP  - 31244
+CY  - England
+UR  - http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=med26&NEWS=N&AN=39732802 https://oxford.primo.exlibrisgroup.com/openurl/44OXF_INST/44OXF_INST:SOLO?sid=OVID:medline&id=pmid:39732802&id=doi:10.1038%2Fs41598-024-82631-0&issn=2045-2322&isbn=&volume=14&issue=1&spage=31244&pages=31244&date=2024&title=Scientific+Reports&atitle=Decoding+of+pain+during+heel+lancing+in+human+neonates+with+EEG+signal+and+machine+learning+approach.&aulast=Shafiee&pid=%3Cauthor%3EShafiee+R%3BDaliri+MR%3C%2Fauthor%3E
+SN  - 2045-2322
+U1  - 115011373
+U2  - 39732802
 N1  - 
 ER  - 
 
@@ -1434,25 +1752,43 @@ U2  - 20817247
 N1  - Comment in (CIN), Comment in (CIN), Comment in (CIN), Comment in (CIN), Comment in (CIN), Comment in (CIN)
 ER  - 
 
-TY  - BOOK
-T1  - A Novel Channel Selection Approach for Human Neonate's Pain EEG Data Analysis
-T2  - 
+TY  - JOUR
+T1  - A novel channel selection approach for human neonate’s pain EEG data analysis
+JF  - Signal, Image and Video Processing
 A1  - Safa Talebi
 A1  - Javad Frounchi
 A1  - Behzad Mozaffari Tazehkand
-ST  - Talebi (2022)
+ST  - Talebi (2025)
 KW  - eppi-reviewer
-PY  - 2022
-DA  - 2022///
-Y1  - 2022///
-AB  - Quantitative measurement of pain using the Electroencephalogram (EEG) signals has received much attention, recently. Pain EEG data processing is associated with complexity and high computational cost. This study aims to propose a new method for selecting efficient EEG channels to determine the area of the scalp that contains the most information about brain activity during acute pain in neonates. Also, selecting relevant channels in pain assessment reduces computational costs. In this study, a new channel selection approach is proposed, which is a combination of filter and wrapper methods. A new pseudo-Sequential Forward Feature Selection (pseudo-SFFS) method is presented to reduce the computational complexity of wrapper methods. We preprocessed data by applying a bandpass filter. We used wavelet transform to extract features. After extracting the features, we applied two feature selection steps. In the first step, we applied the T-test to the extracted features. In the second step, we selected the effective channels based on the output of the applied pseudo-SFFS algorithm into Support Vector Machine (SVM), Decision Tree (DT), and Gaussian Naive Bayesian (GNB) classifiers. Using the proposed method two channels of the sensorimotor cortex including Cz and C4 channels have been selected from 18 EEG channels for pain stimulation through the left heel of neonates. Also, the results show that most of the acute pain information of neonates is related to the delta and theta frequency bands.
-DO  - 10.21203/rs.3.rs-2390234/v1
-VL  - 
-IS  - 
+KW  - Channel selection
+KW  - EEG
+KW  - Feature extraction
+KW  - Feature selection
+KW  - Pain
+KW  - Pseudo-SFFS
+KW  - Electrocardiography
+KW  - Image segmentation
+KW  - Acute pain
+KW  - Computational costs
+KW  - Features extraction
+KW  - Features selection
+KW  - Forward feature selections
+KW  - Measurements of
+KW  - Quantitative measurement
+KW  - Wavelet transforms
+PY  - 2025
+DA  - 2025///
+Y1  - 2025///
+AB  - Quantitative measurement of pain using the electroencephalogram (EEG) signals has received much attention, recently. Because of the subjective nature of pain, brain network complexities, dynamic interactions of neural processes, and multi-dimensionality of pain perception mechanisms in the brain, pain EEG data processing is associated with complexity and high computational cost. This study aims to propose a new method for selecting efficient EEG channels to determine the area of the scalp that contains the most information about brain activity during acute pain in neonates. Also, selecting relevant channels in pain assessment reduces computational costs. In this study, a new channel selection approach is proposed, which is a combination of filter and wrapper methods. A new pseudo-sequential forward feature selection (pseudo-SFFS) method is proposed by introducing an accuracy threshold to determine the end of the iteration. In this way, the iteration number of SFFS is reduced, and the computational cost is therefore mitigated. We used wavelet transform to extract features. In features selection step, we applied the T-test to the features. Then we selected the effective channels based on the output of the applied pseudo-SFFS algorithm into support vector machine, decision tree, and Gaussian Naive Bayesian classifiers. Using the proposed method two channels of the sensorimotor cortex including Cz and C4 channels have been selected from 18 EEG channels for pain stimulation through the left heel of neonates. The results show that most of the acute pain information of neonates is related to the delta and theta frequency bands. © The Author(s), under exclusive licence to Springer-Verlag London Ltd., part of Springer Nature 2025.
+DO  - 10.1007/s11760-025-03934-x
+VL  - 19
+IS  - 5
 CY  - 
-PB  - researchsquare.com
-U1  - 96455957
-N1  - 
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-86000066826&doi=10.1007%2fs11760-025-03934-x&partnerID=40&md5=cbcd58000b0834a8ae4af7f1b06b5a88
+PB  - Springer Science and Business Media Deutschland GmbH
+SN  - 18631703 (ISSN)
+U1  - 115012655
+N1  - Export Date: 02 July 2025; Cited By: 0; Correspondence Address: S. Talebi; Faculty of Electrical and Computer Engineering, University of Tabriz, Tabriz, Iran; email: safa.talebi@tabrizu.ac.ir
 ER  - 
 
 TY  - JOUR
