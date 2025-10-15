@@ -23,7 +23,7 @@ To prepare the networks used in the paper:
 6. Leave default on number of authors
 7. When prompted about unconnected items, click `No`
 8. Switch to the **Analysis** tab:
-   - Set `Clustering Resolution` to `0.5` → click `Update Clustering`
+   - Set `Clustering Resolution` to `0.03` → click `Update Clustering`
    - Set `Normalization Method` to `No normalization` → click `Update Layout`
 9. Go to `File` → `Save` → choose `*.csv` to export:
    - `map_file.csv`
