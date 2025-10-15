@@ -29,7 +29,7 @@ Each folder contains its own `README.md` file with detailed usage instructions.
    - Plots are pre-configured and ready to view or export.
 
 3. Explore the `vosviewer/` folder:
-   - Recreate or view the co-authorship network from the included `.ris` file or the exported map and network files.
+   - Recreate the co-authorship networks from the included `.ris` files.
    - Instructions are provided to reproduce the simplified version used in the paper.
 
 Each folder has its own `README.md` with step-by-step guidance.

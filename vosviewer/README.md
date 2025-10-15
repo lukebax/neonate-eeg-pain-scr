@@ -5,19 +5,16 @@ This folder contains files used to generate a co-authorship network for the neon
 
 ## Folder contents
 
-- `included_studies.ris`: Exported from EPPI-Reviewer (included references)
-- `map_file.csv`: VOSviewer map file (author positions and cluster assignments)
-- `network_file.csv`: VOSviewer network file (co-authorship links)
+- `publications_pre-ScR.ris`: Exported from EPPI-Reviewer (included references)
+- `publications_post-ScR.ris`: Same as publications_pre-ScR.ris, but with an entry added for this scoping review author group
 
-## How to use this folder
+## Create networks from `.ris` files
 
-You can visualize the co-authorship network in two ways:
-
-### Option 1: Create the network from the `.ris` file
+To prepare the networks used in the paper:
 
 1. Open *VOSviewer*
 2. Select `Create` → `Create a map based on bibliographic data`
-3. Choose `Read data from reference manager files` and select `included_studies.ris`
+3. Choose `Read data from reference manager files` and select `publications_pre-ScR.ris` (or `publications_post-ScR.ris`)
 4. On the analysis setup:
    - Type of analysis: `Co-authorship`
    - Counting method: `Full counting`
@@ -32,29 +29,23 @@ You can visualize the co-authorship network in two ways:
    - `map_file.csv`
    - `network_file.csv`
 
-### Option 2: Load the exported `.csv` files
+## Creating figures for publication
 
-- Open *VOSviewer* → `File` → `Open`
-- Load `map_file.csv` and `network_file.csv` to view the network
-
-## Creating the simplified figure for publication
-
-To prepare the final figure used in the paper:
+To prepare the figure used in the paper:
 
 1. On the right panel:
    - Visualization → Set `Scale` to `2`, `Weights` to `Documents`
    - Labels → Set `Size variation` to `0`, `Max. length` to `0` (removes names)
    - Lines → `Size variation` to `0`, `Max. lines` to `10000`
-   - Colors → Set the same RGB value (e.g. `[174, 205, 225]`) for all clusters
+   - Colors → Set the desired RGB values for each cluster
 
 2. On the left panel:
    - Go to `File` → `Screenshot` → Save the image (e.g. as PNG or PDF)
 
 ## Output files and usage
 
-- The `.ris` file is the raw input from EPPI-Reviewer
+- The `.ris` files are the raw inputs primarily from EPPI-Reviewer
 - The `.csv` files define the network layout and links
-- The simplified image is not included here, but is used in the publication
 - Full author names and clusters are listed in the supplementary material
 
 ## Summary
