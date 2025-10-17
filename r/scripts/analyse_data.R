@@ -49,7 +49,6 @@ years_counts <- df_analysis_1 %>%
 
 plot_publication_year(df_analysis_1, paste0(results_folder, "fig_publication_year.pdf"))
 
-
 # Filter for primary analysis group (group 3)
 df_analysis_2 <- df %>% dplyr::filter(analysis_group == 3)
 
@@ -94,20 +93,43 @@ categorical_vars <- c("pain_procedure", "analgesic_intervention", "epoch_rej_met
 file_names <- c("fig_pain_procedure.pdf", "fig_analgesic_intervention.pdf", "fig_epoch_rej_method.pdf", 
                 "fig_clinical_pain_scale.pdf", "fig_non_eeg_recording.pdf", "fig_electrode_placement_method.pdf")
 
+# Plot and export selected categorical variables
+categorical_vars <- c("pain_procedure", "analgesic_intervention", "epoch_rej_method", 
+                      "clinical_pain_scale", "non_eeg_recording", "electrode_placement_method")
+
+file_names <- c("fig_pain_procedure.pdf", "fig_analgesic_intervention.pdf", "fig_epoch_rej_method.pdf", 
+                "fig_clinical_pain_scale.pdf", "fig_non_eeg_recording.pdf", "fig_electrode_placement_method.pdf")
+
 for (i in seq_along(categorical_vars)) {
   var_name <- categorical_vars[i]
   file_name <- paste0(results_folder, file_names[i])
   csv_file <- gsub(".pdf", ".csv", file_name)
   
-  count_table <- count_occurrences(df_analysis_2[[var_name]], csv_file) %>% dplyr::arrange(Count)
+  count_table <- count_occurrences(df_analysis_2[[var_name]], csv_file) %>%
+    dplyr::arrange(Count)
   
   plot_categorical <- ggplot(count_table, aes(x = reorder(Category, Count), y = Count)) +
-    geom_bar(stat = "identity", fill = blue_colour, color = "black") +
+    geom_bar(stat = "identity", fill = blue_colour, width = 0.8) +  # fixed width for uniform bars
     coord_flip() +
-    theme_minimal() +
     labs(x = "", y = "Count") +
-    theme(axis.text.x = element_text(size = axis_font_size),
-          axis.text.y = element_text(size = axis_font_size))
+    theme_minimal(base_size = 22) +
+    theme(
+      panel.grid.major.x = element_line(color = "grey85"),  # keep only x-axis major gridlines
+      panel.grid.major.y = element_blank(),
+      panel.grid.minor = element_blank(),
+      axis.text.x = element_text(size = 22, color = "black"),
+      axis.text.y = element_text(size = 22, color = "black"),
+      axis.title.y = element_text(size = 22),
+      axis.title.x = element_text(size = 22),
+      axis.line.x = element_line(color = "black"),
+      axis.ticks.x = element_line(color = "black"),
+      axis.ticks.y = element_blank()
+    )
   
-  save_figure(plot_categorical, file_name)
+  # Adaptive figure sizing
+  num_cats <- nrow(count_table)
+  height <- max(4, 0.6 * num_cats)
+  width <- 10
+  
+  ggsave(file_name, plot = plot_categorical, width = width, height = height, units = "in")
 }

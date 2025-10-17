@@ -3,8 +3,10 @@ library(ggplot2)          # For visualization
 library(dplyr)            # For data manipulation
 library(rnaturalearth)    # Provides world map data
 library(rnaturalearthdata) # Supplementary world map dataset
+library(sf)               # Simple Features for spatial ops (centroids/points)
 
 # Function to generate a world map showing the distribution of studies by country
+# and add ISO 2-letter country codes as labels for represented countries
 plot_country_map <- function(country_count_table, output_file) {
   # Load world map data and remove Antarctica
   world <- ne_countries(scale = "medium", returnclass = "sf") %>%
@@ -31,6 +33,20 @@ plot_country_map <- function(country_count_table, output_file) {
     warning("Warning: No valid country study data found. The map will display only base geography.")
   }
   
+  # Prepare label positions (only for represented countries)
+  label_df <- world_data %>%
+    dplyr::filter(Count > 0 & !is.na(iso_a2_eh) & iso_a2_eh != "-99")
+  
+  if (nrow(label_df) > 0) {
+    pts <- sf::st_point_on_surface(label_df$geometry)
+    coords <- sf::st_coordinates(pts)
+    label_df$lon <- coords[, 1]
+    label_df$lat <- coords[, 2]
+    label_df_nogeo <- sf::st_set_geometry(label_df, NULL)
+  } else {
+    label_df_nogeo <- NULL
+  }
+  
   # Get the minimum and maximum study count values for color scaling
   min_count <- min(world_data$Count, na.rm = TRUE)
   max_count <- max(world_data$Count, na.rm = TRUE)
@@ -52,11 +68,24 @@ plot_country_map <- function(country_count_table, output_file) {
       legend.text = element_text(size = 7),  # Adjust legend text size
       legend.title = element_blank(),  # Remove legend title
       axis.text = element_blank(),  # Remove axis text
+      axis.title = element_blank(),      # Remove axis titles ("lat"/"lon")
       axis.ticks = element_blank(),  # Remove axis ticks
       panel.background = element_rect(fill = "white", color = NA),  # Set panel background to white
       plot.background = element_rect(fill = "white", color = NA),  # Set plot background to white
       panel.grid = element_blank()  # Remove panel grid lines
     )
+  
+  # Add ISO labels
+  if (!is.null(label_df_nogeo) && nrow(label_df_nogeo) > 0) {
+    plot <- plot +
+      geom_text(
+        data = label_df_nogeo,
+        aes(x = lon, y = lat, label = iso_a2_eh),
+        size = 1.5,
+        fontface = "plain",
+        check_overlap = TRUE
+      )
+  }
   
   # Display the plot
   print(plot)

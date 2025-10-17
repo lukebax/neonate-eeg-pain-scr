@@ -1,42 +1,68 @@
 # Load required libraries
-library(ggplot2)  # For data visualization
-library(dplyr)    # For data manipulation
+library(ggplot2)
+library(dplyr)
 
-# Function to generate a bar plot of publication years
-plot_publication_year <- function(df, output_file) {
+# Function to plot publication years (horizontal bars) and save as PDF
+# order: "older_first" (default) or "newer_first"
+plot_publication_year <- function(df, output_file, order = c("older_first", "newer_first")) {
   
-  # Remove missing values and count occurrences of each publication year
+  order <- match.arg(order)
+  
+  # Remove missing values and count occurrences of each publication per year
   years_counts <- df %>%
-    dplyr::filter(!is.na(publication_year)) %>%  # Ensure no missing values
+    dplyr::filter(!is.na(publication_year)) %>% # Ensure no missing values
     dplyr::count(publication_year) %>%
-    dplyr::arrange(publication_year)  # Ensure years are sorted chronologically
+    dplyr::arrange(publication_year) # Ensure years are sorted chronologically
   
   # Check if there is any valid data to plot
   if (nrow(years_counts) == 0) {
-    warning("Warning: No valid publication year data found. Skipping publication year plot.")
+    warning("Warning: No valid publication year data found. Skipping plot.")
     return(NULL)
   }
   
-  # Define color for bars
-  blue_colour <- "#AECDE1"
+  # Factor order depending on user choice
+  if (order == "newer_first") {
+    # newest at top (reverse chronological)
+    level_order <- rev(years_counts$publication_year)
+  } else {
+    # oldest at top
+    level_order <- years_counts$publication_year
+  }
   
-  # Create the bar plot of publication years
-  plot <- ggplot(years_counts, aes(x = publication_year, y = n)) +
-    geom_bar(stat = "identity", fill = blue_colour, color = "black", width = 0.75) +  # Create bars with black borders
-    theme_minimal() +  # Use a clean, minimal theme
-    labs(x = "Publication Year", y = "Record Count") +  # Add axis labels
-    scale_x_continuous(
-      breaks = seq(min(years_counts$publication_year), max(years_counts$publication_year), by = 1)
-    ) +
+  years_counts <- years_counts %>%
+    mutate(publication_year_f = factor(as.character(publication_year),
+                                       levels = as.character(level_order)))
+  
+  # Aesthetic settings
+  fill_colour <- "#C398BE"
+  
+  # Build plot
+  plot <- ggplot(years_counts, aes(x = publication_year_f, y = n)) +
+    geom_col(width = 0.7, fill = fill_colour, color = NA) +  # no border
+    coord_flip() +
+    labs(x = "Publication Year", y = "Record Count") + # Add axis labels
+    theme_minimal(base_size = 24) +  # Use a clean, minimal theme, larger base font
     theme(
-      axis.text.x = element_text(size = 12, angle = 45, hjust = 1),  # Rotate x-axis labels for readability
-      axis.text.y = element_text(size = 12),  # Set y-axis label size
-      axis.title.x = element_text(size = 14, face = "bold"),  # Style x-axis title
-      axis.title.y = element_text(size = 14, face = "bold"),  # Style y-axis title
-      panel.grid.major.x = element_blank(),  # Remove major vertical grid lines
-      panel.grid.minor = element_blank()  # Remove minor grid lines
+      panel.grid = element_blank(),                       # remove grid
+      axis.line.x = element_line(color = "black", linewidth = 0.6),  # show only x-axis line
+      axis.line.y = element_blank(),                      # remove y-axis line
+      axis.text.x = element_text(size = 22),
+      axis.text.y = element_text(size = 22),
+      axis.title.x = element_text(size = 26, face = "bold", margin = margin(t = 20)),
+      axis.title.y = element_text(size = 26, face = "bold", margin = margin(r = 20)),
+      axis.ticks = element_blank(),
+      panel.border = element_blank(),
+      plot.margin = margin(20, 30, 20, 30)
     )
   
-  # Save the figure to the specified output file
-  save_figure(plot, output_file)
+  # Save the figure to the specified output file (optimised for pdf)
+  file_ext <- tools::file_ext(output_file)
+  device <- if (tolower(file_ext) == "pdf") cairo_pdf else NULL
+  
+  ggsave(filename = output_file,
+         plot = plot,
+         device = device,
+         width = 7,
+         height = 8,
+         units = "in")
 }
