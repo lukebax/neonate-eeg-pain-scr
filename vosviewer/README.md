@@ -28,7 +28,7 @@ To prepare the networks used in the paper:
    - Set `Normalization Method` to `No normalization` → click `Update Layout`
 9. Adjust plot aesthetics
 - On the right panel:
-   - Visualization → Set `Scale` to `2`, `Weights` to `Documents`
+   - Visualization → Set `Scale` to `1.33`, `Weights` to `Documents`
    - Labels → Set `Size variation` to `0`, `Max. length` to `0` (removes names)
    - Lines → `Size variation` to `0`, `Max. lines` to `10000`
    - Colors → Set the desired RGB values for each cluster
